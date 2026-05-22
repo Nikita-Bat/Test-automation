@@ -6,8 +6,8 @@ class LoginPageLocators:
     PASSWORD_INPUT = (By.CSS_SELECTOR, "#password")
     SUBMIT_BUTTON = (By.XPATH, "//button[text()='Войти']")
     ERROR_MESSAGE = (By.XPATH, "//div[text()='Неверный email или пароль']")
-    INCORRECT_MESSAGE_EMAIL = (By.XPATH, "//span[text()='Email']")
-    UNCORRECT_MESSAGE_PASSWORD = (By.XPATH, "//span[text()='Пароль']")
+    INCORRECT_EMAIL_MESSAGE = (By.XPATH, "//span[text()='Email']")
+    INCORRECT_PASSWORD_MESSAGE = (By.XPATH, "//span[text()='Пароль']")
 
 
 

@@ -12,6 +12,7 @@ def driver():
     # Modern approach using Service for Firefox
     options = webdriver.FirefoxOptions()
     options.add_argument("--guest")
+    #options.add_argument("--headless")
     service = Service(GeckoDriverManager().install())
     driver = webdriver.Firefox(service=service, options=options)
     driver.implicitly_wait(5)
